@@ -1,0 +1,38 @@
+/* PALETA
+Azul: rgba(45, 0, 160, 1);
+Verde: rgba(0, 171, 73, 1);
+Branco: rgba(255, 255, 255, 1);
+Preto: rgba(0, 0, 0, 1);
+Cinza claro: rgba(211, 211, 211, 1);
+Cinza escuro: rgba(40, 40, 40, 1);
+*/
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgba(45, 0, 160, 1);
+}
+a {
+	color: rgba(255, 255, 255, 1);
+}
+.img-responsiva {
+	height: 100%;
+}
+#navegacao {
+	background-color: transparent;
+	padding: 1rem 2.5rem;
+	height: 4rem;
+}
+.itens {
+	float: right;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.itens li {
+	display: inline-block;
+}
+#rodape {
+	padding: 1rem 2.5rem;
+	background-color: rgba(40, 40, 40, 1);
+}

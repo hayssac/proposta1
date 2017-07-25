@@ -111,11 +111,13 @@ section {
 	display: inline-block;
 	padding: 1em;
 }
+#menu {
+	padding: 1em;
+}
 
 header {
-	padding: 2em;
 	position: absolute;
-	width: 93.5%;
+	width: 100%;
 }
 section i {
 	font-size: 2rem;
@@ -196,9 +198,10 @@ section i {
 #contato_form {
 	max-width: 25em;
 	height: 100%;
-	padding: 1.5em;
-	margin: -483px 0 0 0;
-	z-index: 10002;
+	padding: 1.2em;
+    margin: -480px 0 0 0;
+    z-index: 10002;
+    background-color: rgba(0,0,0,0.1);
 }
 #contato_form input,
 #contato_form textarea {

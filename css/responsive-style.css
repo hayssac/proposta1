@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+	.coluna-2,
+	.coluna-3 {
+		width: 100%;
+		padding: 0;
+	}
+	#s_apresentacao img {
+    	width: 100%;
+	}
+	.conteudo {
+		padding: 2em;
+	}
+
+	#contato-form {
+		max-width: all;
+		background-color: rgba(0,0,0,0.5)
+	}
+}

@@ -3,8 +3,10 @@
 	<head>
 		<title>Proposta 1</title>
 		<meta http-equiv="Content-Type"  charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="resources/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive-style.css" />
+		<link rel="stylesheet" type="text/css" href="resources/font-awesome/css/font-awesome.min.css" />
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			</script>
@@ -12,17 +14,19 @@
 	</head>
 	<body>
 		<header>
-			<nav id="navegacao">
-				<a href="/">
-					<img class="logotipo-responsivo" src="img/esig-logo-white.png" alt="Logotipo" />
-				</a>
-				<ul class="itens">
-	<!-- 				<li>Apresentação</li>
-					<li>Recursos</li>
-					<li>Contato</li> -->
-					<li><a href="/login"><i class="fa fa-user-circle-o"></i> Login</a></li>
-				</ul>
-			</nav>
+			<div id="menu">
+				<nav id="navegacao">
+						<a href="/">
+							<img class="logotipo-responsivo" src="img/esig-logo-white.png" alt="Logotipo" />
+						</a>
+						<ul class="itens">
+			<!-- 				<li>Apresentação</li>
+							<li>Recursos</li>
+							<li>Contato</li> -->
+							<li><a href="/login"><i class="fa fa-user-circle-o"></i> Login</a></li>
+						</ul>
+				</nav>
+			</div>
 		</header>
 		<section id="s_apresentacao">
 <!-- 			<div id="produto_siged">
@@ -38,7 +42,7 @@
 			</div>
 			<div id="iniciar_siged">
 				<button>
-					<h5>Ver mais <i class="fa fa-angle-down"></i></h5>
+					<h5 class="letra-cor-branca">Ver mais <i class="fa fa-angle-down"></i></h5>
 				</button>
 			</div>
 		</section>
@@ -86,8 +90,8 @@
 			<div class="conteudo">
 				<div class="linha">
 					<div class="coluna-2 texto-centralizado posicao-esquerda">
-						<h3>"Com foco na educação pública, o Portal SIGEduc já está presente em mais de 1000 escolas do Brasil."</h3>
-						<h5>Disponível em diversas plataformas.</h5>
+						<h3 class="letra-cor-branca">"Com foco na educação pública, o Portal SIGEduc já está presente em mais de 1000 escolas do Brasil."</h3>
+						<h5 class="letra-cor-branca">Disponível em diversas plataformas.</h5>
 					</div>
 					<div class="coluna-2">
 						<img src="img/main-feature-sigeduc-repaginate.png" class="img-responsiva" alt="Portfólio de produtos" />
@@ -97,7 +101,25 @@
 		</section>
 
 		<section id="s_contato">
-			<h1>Disponibilizamos o contato nessa seção</h1>
+			<div class="cabecalho">
+				<h1 class="texto-centralizado">CONTATO</h1>
+				<p class="texto-centralizado">Entenda melhor como o Portal SIGEduc irá ajudar a revolucionar a gestão escolar de sua rede de ensino. Um de nossos analistas entrará em contato com você para esclarecer dúvidas e explicar detalhadamente como sua rede de ensino poderá implantar esta incrível ferramenta de gestão educacional.</p>
+			</div>
+			<div id="map">
+			</div>
+			<form id="contato_form">
+				<h4>ESIG Software e Consultoria</h4>
+				<p>Natal/RN</p>
+				<p>Rua da Bronzita, 1917. Espaço Empresarial Terra Nova. Salas 03, 05-09. Lagoa Nova.</p>
+				<p>CEP: 59076-500</p>
+				<p><i class="fa fa-envelope-o"></i> contato@esig.com.br</p>
+				<p><i class="fa fa-phone"></i>Fone: +55 (84) 3034-9310</p>
+				<input type="text" name="nome" placeholder="Nome"><br />
+				<input type="email" name="email" placeholder="Email"><br />
+				<input type="text" name="assunto" placeholder="Assunto"><br />
+				<textarea placeholder="Mensagem"></textarea></br />
+				<button id="enviarMensagem" type="submit"><h5 class="letra-cor-branca">Enviar</h5></button>
+			</form>
 		</section>
 		<footer id="rodape">
 			<span><p>&copy; Hayssa Costa</p></span>
@@ -109,4 +131,7 @@
 		</footer>
 	</body>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/script-map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXT2QjzhaT7eebw1HsSFJZoYEsi7ecZOQ&callback=myMap"
+  type="text/javascript"></script>
 </html>

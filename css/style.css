@@ -24,16 +24,56 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgba(45, 0, 160, 1);
 	font-family: Raleway, sans-serif;
 }
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.2rem;
+}
+h5 {
+	font-size: 1rem;
+}
+h6 {
+	font-size: 0.75rem;
+}
 a {
 	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+li a:hover {
+	color: rgba(0, 171, 73, 1);
+}
+.logotipo-responsivo {
+	height: 100%;
 }
 .img-responsiva {
-	height: 100%;
+	width: 100%;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+header {
+	padding: 2rem;
+	position: absolute;
+	width: 95%;
 }
 #navegacao {
 	background-color: transparent;
-	padding: 1rem 2.5rem;
 	height: 3.5rem;
+    /*position: fixed;*/
+    width: 100%;
 }
 .itens {
 	float: right;
@@ -47,10 +87,25 @@ a {
 #s_apresentacao {
 	height: 100vh;
 	min-height: 90vh;
+	background-image: url(../img/background-cloud.jpg);
+	background-repeat: no-repeat;
 	background-color: rgba(211, 211, 211, 1);
-	padding: 0 12rem;
+	padding: 5rem 5rem 0rem 5rem;
 }
-#s_apresentacao #produto_siged {
+
+#s_apresentacao img {
+    margin: 3rem auto 0;
+    display: block;
+}
+#iniciar_siged button {
+	margin: 5rem auto 0;
+	display: block;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 1);
+	padding: 0 1rem;
+	border-radius: 0.5rem;
+}
+/*#s_apresentacao #produto_siged {
 	float: left;
 	width: 50%;
 	display: inline-block;
@@ -61,7 +116,7 @@ a {
 	display: inline-block;
 	text-align: center;
 	padding-top: 12rem;
-}
+}*/
 #rodape {
 	padding: 1rem 2.5rem;
 	background-color: rgba(40, 40, 40, 1);

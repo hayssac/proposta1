@@ -4,38 +4,107 @@
 		<title>Proposta 1</title>
 		<meta http-equiv="Content-Type"  charset="UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		</script>
-	<![endif]-->
+		<link rel="stylesheet" type="text/css" href="resources/font-awesome/css/font-awesome.min.css">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			</script>
+		<![endif]-->
 	</head>
 	<body>
-		<nav id="navegacao">
-			<a href="/">
-				<img class="img-responsiva" src="img/logo_esigsoftware.png" alt="Logotipo" />
-			</a>
-			<ul class="itens">
-				<li>Apresentação</li>
-				<li>Recursos</li>
-				<li>Contato</li>
-				<li><a href="/login">Login</a></li>
-			</ul>
-		</nav>
+		<header>
+			<nav id="navegacao">
+				<a href="/">
+					<img class="logotipo-responsivo" src="img/esig-logo-white.png" alt="Logotipo" />
+				</a>
+				<ul class="itens">
+	<!-- 				<li>Apresentação</li>
+					<li>Recursos</li>
+					<li>Contato</li> -->
+					<li><a href="/login"><i class="fa fa-user-circle-o"></i> Login</a></li>
+				</ul>
+			</nav>
+		</header>
 		<section id="s_apresentacao">
-			<h1>Essa section representa a frente do website ao iniciar</h1>
+<!-- 			<div id="produto_siged">
+				<img src="img/main-feature-sigeduc-repaginate.png" class="img-responsiva" alt="Produtos SigEduc" />
+			</div>
+			<div id="texto_siged">
+				<h1>Portal SigEduc</h1>
+				<p>SISTEMA INTEGRADO DE GESTÃO DE EDUCAÇÃO</p>
+			</div> -->
+			<div id="apresentacao_siged">
+				<img src="img/esignuvem.png" alt="SigEduc" />
+				<h1 class="texto-centralizado">O sistema de educação mais completo.</h1>
+			</div>
+			<div id="iniciar_siged">
+				<button>
+					<h5>Ver mais <i class="fa fa-angle-down"></i></h5>
+				</button>
+			</div>
 		</section>
 		<section id="s_recursos">
-			<h1>Nessa seção, temos o detalhamento dos recursos do produto</h1>
+			<h1 class="texto-centralizado">FERRAMENTAS INCRÍVEIS</h1>
+			<p class="texto-centralizado">Nosso sistema foi desenvolvido com base na experiência em gestão educacional de uma rede de ensino com mais de 700 escolas, 350 mil alunos, com isso foi possível criar a mais poderosas ferramentas para uso por todas as esferas da educação: Secretaria de Educação, Escolas, Professores, Estudantes, Pais e Responsáveis.</p>
+			<div class="conteudo">			
+				<div class="linha">
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-line-chart letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">O melhor custo benefício</h4>
+						<p>Não se preocupe com estrutura interna.</p>
+					</div>
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-user-plus letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">Controle total</h4>
+						<p>Ofereça vagas e matrículas de acordo com sua demanda.</p>
+					</div>
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-users letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">Monitoramento de dados</h4>
+						<p>Tenha uma plataforma com informações sobre desempenho escolar.</p>
+					</div>
+				</div>
+				<div class="linha">
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-book letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">Diários eletrônicos</h4>
+						<p>Para você controlar suas turmas da forma mais fácil.</p>
+					</div>
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-university letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">Gestão completa</h4>
+						<p>Use a plataforma para gerir sua escolha da melhor maneira.</p>
+					</div>
+					<div class="coluna-3 texto-centralizado">
+						<h2><i class="fa fa-database letra-cor-verde"></i></h2>
+						<h4 class="letra-cor-verde">Integração com dados</h4>
+						<p>Para facilitar a extração de outras informações já existentes.</p>
+					</div>
+				</div>
+			</div>
 		</section>
+		<section id="s_portfolio">
+			<div class="conteudo">
+				<div class="linha">
+					<div class="coluna-2 texto-centralizado posicao-esquerda">
+						<h3>"Com foco na educação pública, o Portal SIGEduc já está presente em mais de 1000 escolas do Brasil."</h3>
+						<h5>Disponível em diversas plataformas.</h5>
+					</div>
+					<div class="coluna-2">
+						<img src="img/main-feature-sigeduc-repaginate.png" class="img-responsiva" alt="Portfólio de produtos" />
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section id="s_contato">
 			<h1>Disponibilizamos o contato nessa seção</h1>
 		</section>
 		<footer id="rodape">
-			<span>&copy; Hayssa Costa</span>
+			<span><p>&copy; Hayssa Costa</p></span>
 			<ul class="itens">
-				<li>Facebook</li>
-				<li>Twitter</li>
-				<li>Linked In</li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 		</footer>
 	</body>

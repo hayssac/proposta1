@@ -1,5 +1,4 @@
 function myMap() {
-	// var esigPoint = new google.maps.LatLng(-5.83046, -35.205386);
 	var esigPoint = {lat: -5.83046, lng: -35.205386};
     var mapOptions = {
         center: esigPoint,
@@ -12,5 +11,4 @@ function myMap() {
   		map: map,
   		animation:google.maps.Animation.BOUNCE
  	});
- 	// marker.setMark(map);
 }

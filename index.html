@@ -16,32 +16,33 @@
 		<header>
 			<div id="menu">
 				<nav id="navegacao">
-						<a href="/">
+						<a href="/" >
 							<img class="logotipo-responsivo" src="img/esig-logo-white.png" alt="Logotipo" />
 						</a>
 						<ul class="itens">
-			<!-- 				<li>Apresentação</li>
-							<li>Recursos</li>
-							<li>Contato</li> -->
-							<li><a href="/login"><i class="fa fa-user-circle-o"></i> Login</a></li>
+							<li><a id="loginLink"><i class="fa fa-user-circle-o"></i> Login</a></li>
 						</ul>
 				</nav>
 			</div>
 		</header>
-		<section id="s_apresentacao">
-<!-- 			<div id="produto_siged">
-				<img src="img/main-feature-sigeduc-repaginate.png" class="img-responsiva" alt="Produtos SigEduc" />
+		<div id="modalLogin" class="modal">
+			<div class="conteudo-modal">
+				<span><i class="fa fa-times close"></i></span>
+				<h3>Faça login no sistema SigEduc</h3>
+				<form id="login_form">
+					<input type="email" name="email" placeholder="Email"><br />
+					<input type="password" name="senha" placeholder="Senha"><br />
+					<button id="enviarMensagem" type="submit"><h5 class="letra-cor-branca">Entrar</h5></button>
+				</form>
 			</div>
-			<div id="texto_siged">
-				<h1>Portal SigEduc</h1>
-				<p>SISTEMA INTEGRADO DE GESTÃO DE EDUCAÇÃO</p>
-			</div> -->
+		</div>
+		<section id="s_apresentacao">
 			<div id="apresentacao_siged">
-				<img src="img/esignuvem.png" alt="SigEduc" />
+				<img src="img/esignuvem-min.png" alt="SigEduc" />
 				<h1 class="texto-centralizado">O sistema de educação mais completo.</h1>
 			</div>
 			<div id="iniciar_siged">
-				<button>
+				<button onClick="rolarAteApresentacao()">
 					<h5 class="letra-cor-branca">Ver mais <i class="fa fa-angle-down"></i></h5>
 				</button>
 			</div>
@@ -94,7 +95,7 @@
 						<h5 class="letra-cor-branca">Disponível em diversas plataformas.</h5>
 					</div>
 					<div class="coluna-2">
-						<img src="img/main-feature-sigeduc-repaginate.png" class="img-responsiva" alt="Portfólio de produtos" />
+						<img src="img/main-feature-sigeduc-repaginate-min.png" class="img-responsiva" alt="Portfólio de produtos" />
 					</div>
 				</div>
 			</div>

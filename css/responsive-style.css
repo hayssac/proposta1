@@ -4,15 +4,27 @@
 		width: 100%;
 		padding: 0;
 	}
+	#s_apresentacao {
+		padding: 7rem 2rem 10rem 2rem
+	}
 	#s_apresentacao img {
     	width: 100%;
 	}
 	.conteudo {
-		padding: 2em;
+		padding: 1.75em;
 	}
-
 	#contato-form {
 		max-width: all;
 		background-color: rgba(0,0,0,0.5)
+	}
+	h1 {
+		font-size: 1.25rem;
+    	margin-bottom: 0;	}
+	h3 {
+		font-size: 1rem;
+	}
+	.conteudo-modal {
+	    margin: 30% auto;
+    	width: 75%;
 	}
 }

@@ -48,7 +48,6 @@ a {
 }
 p {
 	color: rgba(142, 142, 142, 1);
-	padding: 1em;
 }
 p, a, li {
 	font-size: 1rem;
@@ -74,6 +73,9 @@ section {
 .texto-direita {
 	text-align: right;
 }
+.letra-cor-branca {
+	color: rgba(255, 255, 255, 1);
+}
 .letra-cor-verde {
 	color: rgba(0, 171, 73, 1);
 }
@@ -85,6 +87,9 @@ section {
 }
 .posicao-direita {
 	float: right;
+}
+.cabecalho {
+	padding: 2em;
 }
 .conteudo {
 	padding: 4em;
@@ -144,8 +149,8 @@ section i {
 #iniciar_siged button {
 	margin: 5rem auto 0;
 	display: block;
-	background-color: transparent;
-	border: 1px solid rgba(255, 255, 255, 1);
+	background-color: rgba(45, 0, 160, 1);
+	border: 1px solid rgba(45, 0, 160, 1);
 	padding: 0 1rem;
 	border-radius: 0.5rem;
 }
@@ -162,9 +167,10 @@ section i {
 	padding-top: 12rem;
 }*/
 #s_portfolio {
-	background-image: url(../img/people-working-computer.jpg);
+/*	background-image: url(../img/people-working-computer.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center;*/
+	background-color: rgba(0, 171, 73, 1);
     /*-webkit-filter: grayscale(0.8); /* Safari 6.0 - 9.0 */*/
     /*filter: grayscale(0.8);*/
 	min-height: 45rem;
@@ -176,6 +182,40 @@ section i {
 	width: 50%;
 	margin: 0 auto;
 	display: block;
+}
+
+#s_contato {
+	padding: 0;
+}
+
+#map {
+	width: 100%; 
+	height: 25rem;
+}
+#contato_form {
+	max-width: 25em;
+	height: 100%;
+	padding: 1.5em;
+}
+#contato_form input,
+#contato_form textarea {
+	width: 96%;
+    padding: 0.30em;
+    margin: 0.5em 0;
+}
+#contato_form p {
+	margin: 0;
+}
+#contato_form button {
+	margin: 1rem auto 0;
+	display: block;
+	background-color: rgba(0, 171, 73, 1);
+	border: 1px solid rgba(0, 171, 73, 1);
+	border-radius: 0.25rem;	
+}
+#contato_form button h5 {
+	margin: 0;
+	padding: 1rem;
 }
 
 #rodape {
